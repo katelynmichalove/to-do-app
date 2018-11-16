@@ -41,6 +41,7 @@ function onReady() {
 
     deleteButton.addEventListener('click', () => {
       toDoList.removeChild(newLi);
+      toDoList.removeChild(deleteButton);
     });
   });
 }
