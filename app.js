@@ -1,5 +1,5 @@
 function onReady() {
-<<<<<<< HEAD
+
   const addToDoForm = document.getElementById('addToDoForm');
   const newToDoText = document.getElementById('newToDoText');
   const toDoList = document.getElementById('toDoList');
@@ -45,7 +45,7 @@ function onReady() {
       toDoList.removeChild(deleteButton);
     });
   });
-=======
+
   let toDos = [];
   const addToDoForm = document.getElementById('addToDoForm');
   let id = 0;
@@ -105,7 +105,7 @@ function onReady() {
   });
 
   renderTheUI();
->>>>>>> checkpoint-6
+
 }
 
 
